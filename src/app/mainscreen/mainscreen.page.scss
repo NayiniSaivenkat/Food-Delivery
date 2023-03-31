@@ -1,0 +1,41 @@
+ion-content{
+    --ion-background-color:#fff;
+}
+.background-container{
+    height:100vh;
+    width: 100%;
+    display: flex;
+    background: url('../../assets/login_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+ion-card{
+    
+    text-align: center;
+    background: transparent;
+    box-shadow: none;
+    
+
+    img{
+        margin-top: 50px;
+        height: 7rem;
+        width: 7.2rem;
+        
+    }
+    ion-card-title{
+        font-size: 20px;
+        color:wheat;
+        font-weight: 400;
+    }
+    ion-card-content{
+        ion-button{
+
+        
+        --background:black;
+        color:#fff
+        }
+    }
+}
